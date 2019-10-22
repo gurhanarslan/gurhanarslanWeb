@@ -1,0 +1,54 @@
+.soluk{
+    color: rgb(161, 161, 161);
+}
+body{
+    background: url(/img/red-sidelight-background.jpg);
+}
+
+.trans{
+    background: rgba(0, 0, 0, 0.336);
+    border-radius: 10px;
+}
+
+.google{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.facebook{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.b-light{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+ }
+ .ga{
+    margin-top : -10px;
+    background: #fab965;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+.ga:hover{
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 45px;
+}
+
+.logo:hover {
+    color: white;
+    transition: all 0.9s linear;
+}
+.arrow::before{
+    content:"\f124";
+    font-family: FontAwesome;
+    font-size: 30px;
+    color: white;
+}
+.arrow:hover:before{
+ transition: all 0.5s linear;
+    color: red;
+}

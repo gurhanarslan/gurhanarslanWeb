@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>19.10.2019 | SIGN UP PAGE</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesignup.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+        <div class="sticky-top  text-right">
+                
+                <a class="ga logo" href="index.html"> <span class="arrow"></span>  gA.com</a>
+               </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-1 col-md-2 col-lg-3">x</div>
+            <div class="col-10 col-lg-6 trans col-md-8 text-center mt-3 "><p class="h1" style="color: wheat;">SIGN UP NOW!</p>
+                <div class="">
+                    <p class="small soluk">Sign in using media to get quick access</p>
+                    <div class="row">
+                        <div class="col-6 border border-primary facebook"> <a href="#">FACEBOOK</a></div>
+                        <div class="col-6 border border-danger google"> <a style="color: #dc3545;" href="#">GOOGLE</a></div>
+
+
+                    </div>
+                    <div class="b-light mt-3"></div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="text-left mt-3"  style="color: wheat;">Username</p>
+                            <input class="form-control" type="text" placeholder="Username" name="" id="">
+                            <p class="text-left mt-3"  style="color: wheat;">Mail</p>
+                            <input class="form-control" type="text" placeholder="Mail" name="" id="mailtext">
+                            <div class="row mt-3">
+                                <div class="col-4 col-md-3">
+                                    <div class="input-group-append" id="hotmail">
+                                        <span class="input-group-text" id="basic-addon2">@hotmail.com</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-md-3">
+                                    <div class="input-group-append" id="gmail">
+                                        <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-md-3">
+                                    <div class="input-group-append" id="outlook">
+                                        <span class="input-group-text" id="basic-addon2">@outlook.com</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p class="text-left mt-3"  style="color: wheat;">Password</p>
+                            <input class="form-control" type="password" placeholder="Password" name="" id="pass">
+                            <p class="text-left mt-3"  style="color: wheat;">Confirm Password</p>
+                            <input class="form-control" type="password" placeholder="Confirm Password" name="" id="confirmpass">
+                            <div id="con"></div>
+
+                            <input type="checkbox" name="rememberMe" id="rememberMe" class="mr-3 mt-3"  value="Remember Me">Remember Me
+
+                            <input type="button" id="button" value="SING UP" class="form-control btn btn-dark mt-3">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-1 col-lg-3 col-md-2">x</div>
+        </div>
+    </div>
+
+    <script>
+        $("#hotmail").click(function(){
+            var text = $("#mailtext").val();
+            $("#mailtext").val(text +"@hotmail.com");
+
+        })
+        $("#gmail").click(function(){
+            var text = $("#mailtext").val();
+            $("#mailtext").val(text +"@gmail.com");
+
+        })
+        $("#outlook").click(function(){
+            var text = $("#mailtext").val();
+            $("#mailtext").val(text +"@outlook.com");
+
+        })
+
+       $("#confirmpass").focusout(function(){
+        var pass = $("#pass").val();
+        var confirmpass = $("#confirmpass").val();
+        if(pass != confirmpass){
+            $("#con").html("Incorrect Password");
+            $("#con").css("background","gray");
+        }
+        else{
+            $("#con").html("Correct Password");
+            $("#con").css("background","green");
+        }
+
+       })
+    
+    </script>
+</body>
+
+</html>

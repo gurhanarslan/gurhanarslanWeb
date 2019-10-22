@@ -1,0 +1,234 @@
+body {
+    background: url(/img/LoginForms/b4.jpg);
+}
+
+.p-white {
+    color: white;
+}
+
+.mt-10 {
+    margin-top: 6rem;
+}
+
+.b-white {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.button {
+
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.button.active {
+    background-color: #00ad45;
+
+
+
+}
+
+.button:hover {
+    background-color: #00ad45;
+
+
+
+}
+
+.button a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.button a:hover {
+    color: white;
+}
+
+.user::before {
+    content: "\f007";
+    font-family: FontAwesome;
+    font-size: 45px;
+}
+
+@media (min-width:678px) {
+    .login {
+        display: grid;
+        grid-template: 150px 150px 150px / 350px 150px 600px;
+        grid-template-areas:
+            "resim buton1 main"
+            "resim buton2 main"
+            "resim buton3 main";
+    }
+
+    .resim {
+
+        grid-area: resim;
+
+    }
+
+    .buton1 {
+
+        grid-area: buton1;
+
+    }
+
+    .buton2 {
+
+        grid-area: buton2;
+
+    }
+
+    .buton3 {
+        grid-area: buton3;
+
+
+    }
+
+    .main1 {
+        background-color: #fff;
+        grid-area: main;
+    }
+    .main2 {
+        background-color: #fff;
+        grid-area: main;
+    }
+    .main3 {
+        background-color: #fff;
+        grid-area: main;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    #buton1 {
+        transition: all 0.5s linear;
+    }
+
+    #buton2 {
+        transition: all 0.5s linear;
+    }
+
+    #buton3 {
+        transition: all 0.5s linear;
+    }
+}
+
+.arrow::before {
+    content: "\f124";
+    font-family: FontAwesome;
+    font-size: 30px;
+    color: white;
+}
+
+.arrow:hover:before {
+    transition: all 0.5s linear;
+    color: red;
+}
+
+.ga {
+    margin-top: -10px;
+    background: #fab96579;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+
+.ga:hover {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 45px;
+}
+
+.logo:hover {
+    color: white;
+    transition: all 0.9s linear;
+}
+
+.demo {
+    display: block;
+    background: rgba(255, 217, 0, 0.445);
+}
+
+@media (max-width:678px) {
+    
+    
+    *{
+        padding:0 !important;
+        margin-top: 0 !important;
+    }
+    .login {
+ 
+        display: grid;
+        grid-template: 150px / 300px;
+        grid-template-areas:
+            "buton1"
+            "main1"
+            "buton2"
+            "main2"
+            "buton3"
+            "main3"
+            "resim";
+    }
+
+    .resim {
+
+        grid-area: resim;
+
+    }
+
+    .buton1 {
+
+        grid-area: buton1;
+
+    }
+
+    .buton2 {
+
+        grid-area: buton2;
+
+    }
+
+    .buton3 {
+        grid-area: buton3;
+
+
+    }
+
+    .main1 {
+        background-color: #fff;
+        grid-area: main1;
+    }
+    .main2 {
+        background-color: #fff;
+        grid-area: main2;
+    }
+    .main3 {
+        background-color: #fff;
+        grid-area: main3;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    #buton1 {
+        transition: all 0.5s linear;
+    }
+
+    #buton2 {
+        transition: all 0.5s linear;
+    }
+
+    #buton3 {
+        transition: all 0.5s linear;
+    }
+    
+
+}

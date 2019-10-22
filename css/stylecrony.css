@@ -1,0 +1,72 @@
+body{
+    
+    background:fixed url(/img/Crony/b2.jpg);
+ 
+    background-size: cover;
+  
+}
+.purple{
+    background-color:rgba(76, 0, 255, 0.75);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+.t-white{
+    color: wheat;
+    font-size: 26px;
+}
+.rss::before{
+    content: "\f09e";
+    font-family: FontAwesome;
+}
+
+.p-white{
+    color: wheat;
+}
+.img{
+    margin-top: -15px;
+    background: cover;
+}
+.b-white{
+    
+    margin-top: 5px;
+    border-radius:5px;
+    background-color: #fff;
+}
+
+.arrow::before{
+    content:"\f124";
+    font-family: FontAwesome;
+    font-size: 30px;
+    color: white;
+}
+.arrow:hover:before{
+ transition: all 0.5s linear;
+    color: red;
+}
+
+.ga{
+    margin-top : -10px;
+    background: #fab96579;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+.ga:hover{
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 45px;
+}
+
+.logo:hover {
+    color: white;
+    transition: all 0.9s linear;
+}
+
+.demo{
+    display: block;
+    background: rgba(255, 217, 0, 0.445);
+}

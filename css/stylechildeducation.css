@@ -1,0 +1,190 @@
+.background{
+    background: url(/img/ChildEducation/banner.jpg);
+    
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.bg-light{
+    background: transparent !important;
+}
+
+.baslik{
+    color: wheat;
+    font-size: 36px;
+    font-weight: 600;
+
+}
+
+.baslik-thin{
+    color: wheat;
+    font-weight: lighter;
+    
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.mb-10{
+    margin-bottom: 10rem;
+}
+.arrow::before{
+    content:"\f124";
+    font-family: FontAwesome;
+    font-size: 30px;
+    color: white;
+}
+.arrow:hover:before{
+ transition: all 0.5s linear;
+    color: red;
+}
+
+.ga{
+    margin-top : -10px;
+    background: #fab96579;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+.ga:hover{
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 45px;
+}
+
+.logo:hover {
+    color: white;
+    transition: all 0.9s linear;
+}
+
+.demo{
+    display: block;
+    background: rgb(0, 0, 0)
+}
+.kart{
+
+    border: 2px solid rgb(81, 81, 221);
+
+    cursor: pointer;
+}
+
+.kart:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+    border:2px solid white;
+    border-left: none;
+    transition: all 0.5s linear;
+}
+
+
+@media (min-width:800px){
+    .resim{
+        position: absolute;
+        left:-180px
+    }
+    
+    .mr-10{
+        margin-right: 0;
+    }
+    
+    }
+    
+    @media (max-width:678px){
+ 
+    .resim{
+        position: absolute;
+        left:-190px
+    }}
+
+    .frame{
+        width: 25%;
+        height: 250px;
+        padding-left: 15px;
+        border:1px solid white;
+    }
+
+    .bg-mavi{
+        background-color: #3369e7;
+        width: 100%;
+        height: 100%;
+    }
+
+    .user::before{
+        content: "\f0c0";
+        font-family: FontAwesome;
+        font-size: 30px;
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+        background-color: rgb(22, 22, 22);
+    }
+
+    .users::before{
+        content: "\f0c0";
+        font-family: FontAwesome;
+        font-size: 45px;
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+        background-color: rgb(22, 22, 22);
+    }
+
+    .p-white{
+        color: white !important;
+    }
+
+    .frame:hover{
+        border:1px solid #3369e7;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .bg-parents{
+        background: url(/img/ChildEducation/testimonials.jpg);
+        ;
+    }
+
+    .arrow::before{
+        content:"\f124";
+        font-family: FontAwesome;
+        font-size: 30px;
+        color: white;
+    }
+    .arrow:hover:before{
+     transition: all 0.5s linear;
+        color: red;
+    }
+    
+    .ga{
+        margin-top : -10px;
+        background: #fab96579;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 30px;
+    
+    }
+    .ga:hover{
+        text-decoration: none;
+    }
+    
+    .logo {
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 45px;
+    }
+    
+    .logo:hover {
+        color: white;
+        transition: all 0.9s linear;
+    }
+    
+    .demo{
+        display: block;
+        background: rgba(255, 217, 0, 0.445);
+    }

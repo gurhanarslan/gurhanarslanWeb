@@ -1,0 +1,209 @@
+.bg-light {
+    background-color: #fab965 !important
+}
+
+.radius-bt {
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.black {
+    color: rgba(0, 0, 0, 0.9);
+    font-family: 'Righteous', cursive !important;
+}
+
+.black:hover {
+    text-decoration: none;
+    transition: all 0.5s linear;
+    color:rgba(148, 100, 68, 0.9);
+}
+
+.orange {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Righteous', cursive !important;
+    background-color: rgb(0, 0, 0);
+    padding:5px;
+    border-radius: 5px;
+}
+
+.orange:hover {
+    text-decoration: none;
+    transition: all 0.5s linear;
+    color: rgb(122, 55, 55);
+}
+
+.h-250 {
+    height: 600px;
+}
+
+.logo {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 45px;
+}
+
+.logo:hover {
+    color: white;
+    transition: all 0.9s linear;
+}
+
+a.bg-light:focus,
+a.bg-light:hover,
+button.bg-light:focus,
+button.bg-light:hover {
+    background-color: #eea13b !important
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+ 
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: rgba(0, 0, 0, .9)
+}
+
+.card-title {
+    color: rgba(94, 72, 57, 0.9);
+    font-family: 'Righteous', cursive !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(94, 72, 57, 0.9);
+    font-family: 'Righteous', cursive;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(65, 29, 8, 0.7);
+    background-color: rgb(255, 209, 109);
+    transition: all 0.5s linear;
+    border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: rgba(0, 0, 0, .3)
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.9)
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1)
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+
+.navbar-light .navbar-text {
+    color: rgba(0, 0, 0, .5)
+}
+
+.navbar-light .navbar-text a {
+    color: rgba(0, 0, 0, .9)
+}
+
+.navbar-light .navbar-text a:focus,
+.navbar-light .navbar-text a:hover {
+    color: rgba(255, 255, 255, 0.9)
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 50%;
+}
+
+.home::before {
+    content: "\f015";
+    font-family: FontAwesome;
+}
+
+.phone::before {
+    content: "\f098";
+    font-family: FontAwesome;
+}
+
+.mail::before {
+    content: "\f1fa";
+    font-family: FontAwesome;
+}
+.linkedin::before {
+    content: "\f129";
+    font-family: FontAwesome;
+}
+
+#ability {
+    transition: all 0.5s linear;
+}
+
+.btn-lila {
+    color: #fff;
+    background-color: #c8a2c8;
+    border-color: #c8a2c8
+}
+.lila{
+    color:#c8a2c8 !important;
+}
+.btn-lila:hover {
+    color: #fff;
+    background-color: #917691;
+    border-color: #c8a2c8
+}
+
+.down::before {
+    content: "\f103";
+    font-family: FontAwesome;
+    font-size: 26px;
+}
+.card:hover{
+    background-color:  rgb(255, 209, 109);
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+
+.img-card:hover{
+    background-color: #fff;
+   
+    opacity: 0.4;
+}
+

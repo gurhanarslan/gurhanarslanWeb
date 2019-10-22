@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>21/10/2019 | LoginForms</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styleloginforms.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="sticky-top  text-right">
+        <a href="https://demo.w3layouts.com/demos_new/template_demo/06-03-2019/triple_forms-demo_Free/1611343419/web/index.html#"
+            class="demo sticky-top d-block text-center" target="_blank">DEMO - W3 LAYOUT</a>
+
+        <a class="ga logo" href="index.html"> <span class="arrow"></span> gA.com</a>
+    </div>
+    <div class="container ">
+        <div class="row ">
+            <div class="col-1"></div>
+            <div class="col-8">
+                <h1 class="text-center mt-10 p-white">LOGIN FORM</h1>
+                <div class="container-fluid login login-sm mt-5 p-0">
+
+                    <div class="resim">
+                        <img class="w-100 h-100" src="img/LoginForms/m.jpg" alt="">
+                    </div>
+
+                    <div id="buton1" class="buton1 button text-center">
+                        <div class="user mt-3"></div>
+                        <a class="mt-5" href="#login">Login</a>
+                    </div>
+
+                    <div id="buton2" class="buton2 button text-center">
+                        <div class="user mt-3"></div>
+                        <a class="mt-5" href="#login">Register</a>
+                    </div>
+
+                    <div id="buton3" class="buton3 button text-center">
+                        <div class="user mt-3"></div>
+                        <a class="mt-5" href="#login">Forgot Password?</a>
+                    </div>
+
+                    <div id="bir" class="main1">
+                        <h3 class="text-center mt-10">Login Here!</h3>
+                        <input type="text" name="username" class="form-control form-control-lg mt-3"
+                            style="background: rgb(212, 212, 212); border-radius: 0;" placeholder="Username"
+                            id="username">
+                        <input type="password" name="password" class="form-control form-control-lg mt-3"
+                            style="background: rgb(212, 212, 212); border-radius: 0;" placeholder="Password"
+                            id="password">
+
+                        <button class="btn btn-success form-control form-control-lg mt-3">Login</button>
+
+                    </div>
+
+                    <div id="iki" class="main2 d-none ">
+                        <h3 class="text-center mt-10">Register Here!</h3>
+                        <input type="text" name="username" class="form-control form-control-lg mt-3"
+                            style="background: rgb(212, 212, 212); border-radius: 0;" placeholder="Username"
+                            id="username">
+                        <input type="password" name="password" class="form-control form-control-lg mt-3"
+                            style="background: rgb(212, 212, 212); border-radius: 0;" placeholder="Password"
+                            id="password">
+                        <input type="password" name="password" class="form-control form-control-lg mt-3"
+                            style="background: rgb(212, 212, 212); border-radius: 0;" placeholder="Confirm Password"
+                            id="password">
+
+                        <button class="btn btn-success form-control form-control-lg mt-3">Register</button>
+
+                    </div>
+                    <div id="uc" class="main3 d-none">
+                        <h3 class="text-center mt-10">Login Here</h3>
+                        <h5 class="mt-5 text-muted">
+                            Enter your email address below and we'll send you an email with instructions.
+
+                            Need Help? Learn more about how to retrieve an existing account.
+                        </h5>
+                        <input type="email" name="password" class="mt-5 form-control form-control-lg mt-3"
+                            style="background: rgb(212, 212, 212); border-radius: 0;" placeholder="Email" id="Email">
+
+                        <button class="btn btn-success form-control form-control-lg mt-3">Login</button>
+
+
+
+
+                    </div>
+                    <div class="main4"></div>
+                </div>
+
+            </div>
+
+        </div>
+        <script>
+            $("#buton1").click(function () {
+                $(this).addClass("active");
+                $("#bir").removeClass("d-none");
+                $("#buton2").removeClass("active");
+                $("#buton3").removeClass("active");
+
+                $("#bir").addClass("d-block");
+                $("#iki").removeClass("d-block");
+                $("#uc").removeClass("d-block");
+                $("#iki").addClass("d-none");
+                $("#uc").addClass("d-none");
+            })
+
+            $("#buton2").click(function () {
+                $(this).addClass("active");
+                $("#buton1").removeClass("active");
+                $("#buton3").removeClass("active");
+                $("#iki").removeClass("d-none");
+                $("#iki").addClass("d-block");
+                $("#bir").removeClass("d-block");
+                $("#uc").removeClass("d-block");
+                $("#bir").addClass("d-none");
+                $("#uc").addClass("d-none");
+            })
+            $("#buton3").click(function () {
+                $(this).addClass("active");
+                $("#buton1").removeClass("active");
+                $("#buton2").removeClass("active");
+                $("#uc").removeClass("d-none");
+                $("#uc").addClass("d-block");
+                $("#bir").removeClass("d-block");
+                $("#iki").removeClass("d-block");
+                $("#bir").addClass("d-none");
+                $("#iki").addClass("d-none");
+            })
+        </script>
+</body>
+
+</html>
